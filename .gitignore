@@ -1,0 +1,64 @@
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Dossiers de distribution / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environnement virtuel
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Fichiers système
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Caches de paquets
+pip-wheel-metadata/
+__pypackages__/
+
+# Configs utilisateur
+*.env
+*.ini
+*.cfg
+
+# Données générées
+*.h5
+*.db
+*.sqlite
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# Résultats de tests
+htmlcov/
+.tox/
+coverage.*
+.cache/
+.pytest_cache/
+
+# Dossiers cachés
+.mypy_cache/
+.pyre/
+.pytype/
