@@ -94,13 +94,7 @@ trainer.evaluate(Xte, yte)   # métriques + log CSV
 | `src/data.py`         | Téléchargement & fenêtrage des séries |
 | `src/models_paper.py` | Implémentations CNN / LSTM / Transformer |
 | `src/trainer.py`      | Boucle d’entraînement + checkpoints |
-| `ntbks/main_ntbk.ipynb` | Notebook démo (exécutable en script) |
-
-Lancez :
-
-```bash
-python -m ntbks.main_ntbk
-```
+| `ntbks/main_ntbk.ipynb` | Notebook démo |
 
 Tous les checkpoints vont dans `ntbks/checkpoints/`, les métriques s’empilent dans `metrics.csv`.
 
