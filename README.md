@@ -1,7 +1,7 @@
 # Projet **Machine Learning in Finance : Fondations théoriques**
 
 > _Réimplémentation, en PyTorch, des principaux modèles du papier  
-> « Hierarchical Multi-Scale Gaussian Transformer for Stock Movement Prediction » (2023)._  
+> « Hierarchical Multi-Scale Gaussian Transformer for Stock Movement Prediction » (2020)._  
 > Résultats reproduits sur le **S&P 500 (2010-2019)** : comparaison CNN / LSTM / Transformer ± priors gaussiens.
 
 ---
@@ -10,7 +10,6 @@
 
 | Modèle | Fenêtre *N* | Accuracy | MCC (×10<sup>-2</sup>) | Paramètres |
 |--------|-------------|----------|------------------------|------------|
-| CNN              | 5  | 0.524 | 4.8  | **6 977** |
 | CNN              | 40 | 0.529 | 5.8  | **6 977** |
 | LSTM             | 40 | 0.534 | 8.6  | 13 473 |
 | Transformer      | 40 | 0.554 | 8.5  | 152 619 |
@@ -105,31 +104,6 @@ python -m ntbks.main_ntbk
 
 Tous les checkpoints vont dans `ntbks/checkpoints/`, les métriques s’empilent dans `metrics.csv`.
 
----
-
-## 📊 Visualisations
-
-* Courbes **Accuracy / F1 / MCC** vs *N* générées automatiquement.  
-* Scatter plots des prédictions ↑ / ↓ superposées aux prix — y compris pendant la crise Covid-19 pour tester la robustesse.
-
----
-
-## 🤝 Contribuer
-
-1. Fork & branche `feature/<nom>`.
-2. Code formaté par `black` + `ruff`.
-3. Ouvrez une PR détaillée (FR/EN) !
-
----
-
-## 📜 Licence
-
-MIT © 2025 – Alexandre Viard  
-Sans garantie.
-
----
-
-## 🔖 Références
 
 * Li et al., 2023 — *Hierarchical Multi-Scale Gaussian Transformer for Stock Movement Prediction*  
 * Gu et al., 2020 — *Empirical Asset Pricing via Machine Learning*  
