@@ -23,7 +23,7 @@
 
 ```
 ml_in_finance/
-├── ntbks/                # Notebooks (convertis en .py)
+├── ntbks/                
 │   ├── main_ntbk.ipynb
 │   └── checkpoints/metrics.csv
 ├── src/                  # Code (datasets, modèles, trainer…)
