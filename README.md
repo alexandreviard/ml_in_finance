@@ -1,4 +1,4 @@
-# Projet **Machine Learning in Finance : Fondations théoriques**
+# Projet **Machine Learning in Finance : Theoretical Foundations - ENSAE 3A**
 
 > _Réimplémentation, en PyTorch, des principaux modèles du papier  
 > « Hierarchical Multi-Scale Gaussian Transformer for Stock Movement Prediction » (2020)._  
